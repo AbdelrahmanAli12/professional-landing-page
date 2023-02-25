@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+	<ul>
+		<li><a class="nav-link active" onclick="openTab(event, 'home')">Home</a></li>
+		<li><a class="nav-link" onclick="openTab(event, 'about')">About</a></li>
+		<li><a class="nav-link" onclick="openTab(event, 'services')">Services</a></li>
+		<li><a class="nav-link" onclick="openTab(event, 'contact')">Contact</a></li>
+	</ul>
+</nav>
+
+	</header>
+	<main>
+		<section>
+			<h1>Welcome to Example Landing Page</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien euismod, aliquet mi ac, venenatis tortor. Etiam ac nisl vel nisl tempor iaculis. Donec eget interdum nisi. Aenean porttitor turpis sit amet sapien vehicula, eu convallis mi vehicula.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien euismod, aliquet mi ac, venenatis tortor. Etiam ac nisl vel nisl tempor iaculis. Donec eget interdum nisi. Aenean porttitor turpis sit amet sapien vehicula, eu convallis mi vehicula.</p>
+		</section>
+		<section id="tabs">
+			<div class="tab">
+				<button class="tablinks" onclick="openTab(event, 'tab1')">Tab 1</button>
+				<button class="tablinks" onclick="openTab(event, 'tab2')">Tab 2</button>
+				<button class="tablinks" onclick="openTab(event, 'tab3')">Tab 3</button>
+			</div>
+			<div id="tab1" class="tabcontent">
+				<h2>Tab 1 Content</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien euismod, aliquet mi ac, venenatis tortor. Etiam ac nisl vel nisl tempor iaculis. Donec eget interdum nisi. Aenean porttitor turpis sit amet sapien vehicula, eu convallis mi vehicula.</p>
+			</div>
+			<div id="tab2" class="tabcontent">
+				<h2>Tab 2 Content</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien euismod, aliquet mi ac, venenatis tortor. Etiam ac nisl vel nisl tempor iaculis. Donec eget interdum nisi. Aenean porttitor turpis sit amet sapien vehicula, eu convallis mi vehicula.</p>
+			</div>
+			<div id="tab3" class="tabcontent">
+				<h2>Tab 3 Content</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien euismod, aliquet mi ac, venenatis tortor. Etiam ac nisl vel nisl tempor iaculis.
+vehicula.</p>
+</div>
+</section>
+</main>
+<script type="text/javascript">
+function openTab(evt, tabName) {
+	var i, tabcontent, tablinks;
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("nav-link");
+	for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	document.getElementById(tabName).style.display = "block";
+	evt.currentTarget.className += " active";
+}
+
+</script>
+
+</body>
+</html>
