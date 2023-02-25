@@ -1,3 +1,4 @@
+//const emailjs = require("@emailjs/browser");
 const links = document.querySelectorAll("nav a");
 const sections = document.querySelectorAll("main section");
 const form = document.querySelector("form");
@@ -21,21 +22,18 @@ for (let i = 0; i < links.length; i++) {
 
 button.addEventListener("click", async (event) => {
   event.preventDefault();
-
-  try {
-    const response = await fetch("http://localhost:3000/send-email", {
-      method: "POST",
-      body: formData,
+  let from_name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let message = document.getElementById("message").value;
+  var data = {
+    from_name: from_name,
+    email: email,
+    message: message,
+  };
+  await emailjs
+    .send("service_28z21xf", "template_mnnw3ag", data, "zcm001YeOLTHzPhMu")
+    .then(() => {
+      console.log("email sent success");
+      window.scrollTo(0, 0);
     });
-
-    if (response.ok) {
-      alert("Email sent successfully!");
-      form.reset();
-    } else {
-      throw new Error("Failed to send email.");
-    }
-  } catch (error) {
-    console.error(error);
-    alert("An error occurred while sending the email.");
-  }
 });
