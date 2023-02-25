@@ -4,7 +4,9 @@ const sections = document.querySelectorAll("main section");
 const form = document.querySelector("form");
 const button = form.querySelector("button");
 const formData = new FormData(form);
-
+let from_name = document.getElementById("name").value;
+let email = document.getElementById("email").value;
+let message = document.getElementById("message").value;
 for (let i = 0; i < links.length; i++) {
   links[i].addEventListener("click", function (e) {
     e.preventDefault();
@@ -20,20 +22,27 @@ for (let i = 0; i < links.length; i++) {
   });
 }
 
-button.addEventListener("click", async (event) => {
-  event.preventDefault();
-  let from_name = document.getElementById("name").value;
-  let email = document.getElementById("email").value;
-  let message = document.getElementById("message").value;
-  var data = {
-    from_name: from_name,
-    email: email,
-    message: message,
-  };
-  await emailjs
-    .send("service_28z21xf", "template_mnnw3ag", data, "zcm001YeOLTHzPhMu")
-    .then(() => {
-      console.log("email sent success");
-      window.scrollTo(0, 0);
-    });
-});
+button
+  .addEventListener("click", async function sendEmail() {
+    // Initialize EmailJS with your user ID
+    emailjs.init("YOUR_USER_ID");
+
+    // Define the email parameters
+    const params = {
+      from_name: from_name,
+      email: email,
+      message: message,
+    };
+
+    // Send the email
+    emailjs.send(
+      "service_28z21xf",
+      "template_mnnw3ag",
+      data,
+      "zcm001YeOLTHzPhMu"
+    );
+    console.log("Email sent successfully!");
+  })
+  .catch((error) => {
+    console.error("Error sending email:", error);
+  });
