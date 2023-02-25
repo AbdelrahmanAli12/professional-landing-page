@@ -1,64 +1,141 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Example Landing Page</title>
+	<meta charset="UTF-8">
+	<title>Landing Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
 </head>
 <body>
 	<header>
 		<nav>
-	<ul>
-		<li><a class="nav-link active" onclick="openTab(event, 'home')">Home</a></li>
-		<li><a class="nav-link" onclick="openTab(event, 'about')">About</a></li>
-		<li><a class="nav-link" onclick="openTab(event, 'services')">Services</a></li>
-		<li><a class="nav-link" onclick="openTab(event, 'contact')">Contact</a></li>
-	</ul>
-</nav>
-
+			<ul>
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
 	</header>
+	
 	<main>
-		<section>
-			<h1>Welcome to Example Landing Page</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien euismod, aliquet mi ac, venenatis tortor. Etiam ac nisl vel nisl tempor iaculis. Donec eget interdum nisi. Aenean porttitor turpis sit amet sapien vehicula, eu convallis mi vehicula.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien euismod, aliquet mi ac, venenatis tortor. Etiam ac nisl vel nisl tempor iaculis. Donec eget interdum nisi. Aenean porttitor turpis sit amet sapien vehicula, eu convallis mi vehicula.</p>
+		<section id="home" class="active-section">
+			<h1>Welcome to our landing page</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lectus aliquam, 
+                congue felis nec, sollicitudin enim. Nulla facilisi. Nullam vel risus ut justo lacinia facilisis ac ut ipsum.
+                 Sed euismod quis lectus a tempor.
+                 </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lectus aliquam, 
+                congue felis nec, sollicitudin enim. Nulla facilisi. Nullam vel risus ut justo lacinia facilisis ac ut ipsum.
+                 Sed euismod quis lectus a tempor.
+                 </p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lectus aliquam, 
+                congue felis nec, sollicitudin enim. Nulla facilisi. Nullam vel risus ut justo lacinia facilisis ac ut ipsum.
+                 Sed euismod quis lectus a tempor.
+                 </p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id lectus aliquam, 
+                congue felis nec, sollicitudin enim. Nulla facilisi. Nullam vel risus ut justo lacinia facilisis ac ut ipsum.
+                 Sed euismod quis lectus a tempor.
+                 </p>
 		</section>
-		<section id="tabs">
-			<div class="tab">
-				<button class="tablinks" onclick="openTab(event, 'tab1')">Tab 1</button>
-				<button class="tablinks" onclick="openTab(event, 'tab2')">Tab 2</button>
-				<button class="tablinks" onclick="openTab(event, 'tab3')">Tab 3</button>
-			</div>
-			<div id="tab1" class="tabcontent">
-				<h2>Tab 1 Content</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien euismod, aliquet mi ac, venenatis tortor. Etiam ac nisl vel nisl tempor iaculis. Donec eget interdum nisi. Aenean porttitor turpis sit amet sapien vehicula, eu convallis mi vehicula.</p>
-			</div>
-			<div id="tab2" class="tabcontent">
-				<h2>Tab 2 Content</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien euismod, aliquet mi ac, venenatis tortor. Etiam ac nisl vel nisl tempor iaculis. Donec eget interdum nisi. Aenean porttitor turpis sit amet sapien vehicula, eu convallis mi vehicula.</p>
-			</div>
-			<div id="tab3" class="tabcontent">
-				<h2>Tab 3 Content</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien euismod, aliquet mi ac, venenatis tortor. Etiam ac nisl vel nisl tempor iaculis.
-vehicula.</p>
-</div>
-</section>
-</main>
-<script type="text/javascript">
-function openTab(evt, tabName) {
-	var i, tabcontent, tablinks;
-	tabcontent = document.getElementsByClassName("tabcontent");
-	for (i = 0; i < tabcontent.length; i++) {
-		tabcontent[i].style.display = "none";
-	}
-	tablinks = document.getElementsByClassName("nav-link");
-	for (i = 0; i < tablinks.length; i++) {
-		tablinks[i].className = tablinks[i].className.replace(" active", "");
-	}
-	document.getElementById(tabName).style.display = "block";
-	evt.currentTarget.className += " active";
-}
+		
+		<section id="about">
+			<h2>About us</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Duis id lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi. 
+                 Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod quis lectus a tempor. </p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Duis id lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi. 
+                 Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod quis lectus a tempor. </p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Duis id lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi. 
+                 Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod quis lectus a tempor. </p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Duis id lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi. 
+                 Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod quis lectus a tempor. </p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Duis id lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi. 
+                 Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod quis lectus a tempor. </p>
+		</section>
+		
+		<section id="services">
+			<h2>Our services</h2>
+			<ul>
+				<li>Web design</li>
+				<li>Graphic design</li>
+				<li>SEO optimization</li>
+                <li>Web design</li>
+				<li>Graphic design</li>
+				<li>SEO optimization</li>
+                <li>Web design</li>
+				<li>Graphic design</li>
+				<li>SEO optimization</li>
+                
+			</ul>
+		</section>
+		
+		<section id="contact">
+			<h2>Contact us</h2>
 
-</script>
 
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><strong>Email:</strong> info@example.com</li>
+          <li><strong>Phone:</strong> 555-555-5555</li>
+          <li><strong>Address:</strong> 123 Main St, Anytown USA</li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <h3>Connect with Us</h3>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <p>&copy; 2023 My Website. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+	<script>
+		const links = document.querySelectorAll('nav a');
+		const sections = document.querySelectorAll('main section');
+		
+		for (let i = 0; i < links.length; i++) {
+			links[i].addEventListener('click', function(e) {
+				e.preventDefault();
+				for (let j = 0; j < sections.length; j++) {
+					sections[j].classList.remove('active-section');
+				}
+				const sectionId = this.getAttribute('href').substring(1);
+				document.getElementById(sectionId).classList.add('active-section');
+				for (let k = 0; k < links.length; k++) {
+					links[k].classList.remove('active');
+				}
+				this.classList.add('active');
+			});
+		}
+	</script>
 </body>
 </html>
