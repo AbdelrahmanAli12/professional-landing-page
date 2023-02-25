@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Bido_\\OneDrive\\Documents\\GitHub\\professional-landing-page\\index.html"
+            "file": "c:\\Users\\Bido_\\OneDrive\\Documents\\GitHub\\professional-landing-page\\frontend\\index.html"
         }
     ]
 }

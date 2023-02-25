@@ -83,7 +83,7 @@ form textarea {
 	border-radius: 5px;
 }
 
-form input[type="submit"] {
+form button[type="submit"] {
 	background-color: #333;
 	color: #fff;
 	border: none;
