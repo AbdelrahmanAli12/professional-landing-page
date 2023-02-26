@@ -6,6 +6,8 @@ import Home from "./components.js/home";
 import About from "./components.js/about";
 import Contact from "./components.js/contact";
 import Services from "./components.js/services";
+import Html from "./components.js/services components/html";
+
 const MainApp = () => {
   return (
     <>
@@ -15,6 +17,7 @@ const MainApp = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/html" element={<Html />} />
         </Routes>
       </Router>
     </>

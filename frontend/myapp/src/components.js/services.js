@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import App from "../App";
 
 function Services() {
   return (
     <App>
       <body className="services">
-        <a href="#" class="card html">
+        <Link to="/html" class="card html">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -34,7 +35,7 @@ function Services() {
             </svg>
           </div>
           <p>HTML</p>
-        </a>
+        </Link>
         <a href="#" class="card css">
           <div class="cor__cobertura"></div>
           <div class="circulo">
