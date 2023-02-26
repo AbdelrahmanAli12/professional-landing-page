@@ -12,7 +12,7 @@ function Footer() {
                 <strong>Email:</strong>thestartupcompanyy@gmail.com
               </li>
               <li>
-                <strong>Phone:</strong> 555-555-5555
+                <strong>Phone:</strong> (+20)1211399151 / (+20)1050772774
               </li>
               <li>
                 <strong>Address:</strong> 123 Main St, Anytown USA
@@ -21,10 +21,10 @@ function Footer() {
           </div>
           <div className="col-sm-6">
             <h3>Connect with Us</h3>
-            <ul className="social-icons">
+            <ul className="icons">
               <li>
                 <a href="https://www.example.com" target="_blank">
-                  <i className="fab fa-facebook"></i>
+                  <img src="facebook.svg" alt="facebook logo" />
                 </a>
               </li>
               <li>
@@ -32,7 +32,7 @@ function Footer() {
                   href="https://www.linkedin.com/company/thestartupcompany"
                   target="_blank"
                 >
-                  <i className="fab fa-linkedin"></i>
+                  <img src="linkedin.svg" alt="linkedin logo" />
                 </a>
               </li>
               <li>
@@ -40,7 +40,7 @@ function Footer() {
                   href="https://www.instagram.com/the_startup_consulting/?igshid=NTdlMDg3MTY%3D"
                   target="_blank"
                 >
-                  <i className="fab fa-instagram"></i>
+                  <img src="instagram.svg" alt="instagram logo" />
                 </a>
               </li>
             </ul>
