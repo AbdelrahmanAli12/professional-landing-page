@@ -23,7 +23,11 @@ function Footer() {
             <h3>Connect with Us</h3>
             <ul className="icons">
               <li>
-                <a href="https://www.example.com" target="_blank">
+                <a
+                  href="https://www.example.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src="facebook.svg" alt="facebook logo" />
                 </a>
               </li>
@@ -31,6 +35,7 @@ function Footer() {
                 <a
                   href="https://www.linkedin.com/company/thestartupcompany"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src="linkedin.svg" alt="linkedin logo" />
                 </a>
@@ -39,6 +44,7 @@ function Footer() {
                 <a
                   href="https://www.instagram.com/the_startup_consulting/?igshid=NTdlMDg3MTY%3D"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src="instagram.svg" alt="instagram logo" />
                 </a>

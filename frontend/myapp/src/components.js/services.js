@@ -36,7 +36,7 @@ function Services() {
           </div>
           <p>HTML</p>
         </Link>
-        <a href="#" class="card css">
+        <Link href="#" class="card css">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -73,8 +73,8 @@ function Services() {
             </svg>
           </div>
           <p>CSS</p>
-        </a>
-        <a href="#" class="card js">
+        </Link>
+        <Link href="#" class="card js">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -92,9 +92,9 @@ function Services() {
             </svg>
           </div>
           <p>JS</p>
-        </a>
+        </Link>
 
-        <a href="#" class="card ts">
+        <Link href="#" class="card ts">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -116,9 +116,9 @@ function Services() {
             </svg>
           </div>
           <p>TS</p>
-        </a>
+        </Link>
 
-        <a href="#" class="card git">
+        <Link href="#" class="card git">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -157,9 +157,9 @@ function Services() {
             </svg>
           </div>
           <p>GIT</p>
-        </a>
+        </Link>
 
-        <a href="#" class="card react">
+        <Link href="#" class="card react">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -176,8 +176,8 @@ function Services() {
             </svg>
           </div>
           <p>REACT</p>
-        </a>
-        <a href="#" class="card postgres">
+        </Link>
+        <Link href="#" class="card postgres">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -294,8 +294,8 @@ function Services() {
             </svg>
           </div>
           <p>POSTGRES DB</p>
-        </a>
-        <a href="#" class="card mongo">
+        </Link>
+        <Link href="#" class="card mongo">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -312,8 +312,8 @@ function Services() {
             </svg>
           </div>
           <p>MONGO DB</p>
-        </a>
-        <a href="#" class="card github">
+        </Link>
+        <Link href="#" class="card github">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -330,9 +330,9 @@ function Services() {
             </svg>
           </div>
           <p>GITHUB</p>
-        </a>
+        </Link>
 
-        <a href="#" class="card wordpress">
+        <Link href="#" class="card wordpress">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -357,7 +357,7 @@ function Services() {
             </svg>
           </div>
           <p>WORDPRESS</p>
-        </a>
+        </Link>
       </body>
     </App>
   );
