@@ -76,36 +76,6 @@ h1, h2 {
 	margin-top: 0;
 }
 
-form label {
-	display: inline-block;
-	width: 100px;
-	margin-bottom: 10px;
-}
-
-form input[type="text"],
-form input[type="email"],
-form textarea {
-	display: block;
-	width: 100%;
-	padding: 10px;
-	margin-bottom: 10px;
-	border: 1px solid #ddd;
-	border-radius: 5px;
-}
-
-form button[type="submit"] {
-	background-color: #000;
-	color: #fff;
-	border: none;
-	padding: 10px 20px;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-form input[type="submit"]:hover {
-	background-color: #fff;
-	color: #000;
-}
 footer {
   background-color: #000000;
   color: #fff;

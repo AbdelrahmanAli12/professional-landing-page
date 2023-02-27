@@ -4,7 +4,7 @@ import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components.js/home";
 import About from "./components.js/about";
-import Contact from "./components.js/contact";
+import Projects from "./components.js/projects";
 import Services from "./components.js/services";
 import Html from "./components.js/services components/html";
 import Css from "./components.js/services components/css";
@@ -20,6 +20,7 @@ import Angular from "./components.js/services components/angular";
 import Bootstrap from "./components.js/services components/bootstrap";
 import MaterialUi from "./components.js/services components/materialui";
 import Antd from "./components.js/services components/antd";
+import Project1 from "./components.js/projects component/project1";
 
 const MainApp = () => {
   return (
@@ -28,7 +29,7 @@ const MainApp = () => {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/services" element={<Services />} />
           <Route path="/html" element={<Html />} />
           <Route path="/css" element={<Css />} />
@@ -44,6 +45,7 @@ const MainApp = () => {
           <Route path="/mongo" element={<Mongo />} />
           <Route path="/wordpress" element={<Wordpress />} />
           <Route path="/materialUi" element={<MaterialUi />} />
+          <Route path="/project1" element={<Project1 />} />
         </Routes>
       </Router>
     </>
