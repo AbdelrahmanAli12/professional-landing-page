@@ -7,6 +7,19 @@ import About from "./components.js/about";
 import Contact from "./components.js/contact";
 import Services from "./components.js/services";
 import Html from "./components.js/services components/html";
+import Css from "./components.js/services components/css";
+import Js from "./components.js/services components/js";
+import Ts from "./components.js/services components/ts";
+import Git from "./components.js/services components/git";
+import ReactComponent from "./components.js/services components/react";
+import Postgres from "./components.js/services components/postgres";
+import Mongo from "./components.js/services components/mongo";
+import Github from "./components.js/services components/github";
+import Wordpress from "./components.js/services components/wordpress";
+import Angular from "./components.js/services components/angular";
+import Bootstrap from "./components.js/services components/bootstrap";
+import MaterialUi from "./components.js/services components/materialui";
+import Antd from "./components.js/services components/antd";
 
 const MainApp = () => {
   return (
@@ -18,6 +31,19 @@ const MainApp = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
           <Route path="/html" element={<Html />} />
+          <Route path="/css" element={<Css />} />
+          <Route path="/js" element={<Js />} />
+          <Route path="/ts" element={<Ts />} />
+          <Route path="/git" element={<Git />} />
+          <Route path="/React" element={<ReactComponent />} />
+          <Route path="/angular" element={<Angular />} />
+          <Route path="/antd" element={<Antd />} />
+          <Route path="/bootstrap" element={<Bootstrap />} />
+          <Route path="/github" element={<Github />} />
+          <Route path="/postgres" element={<Postgres />} />
+          <Route path="/mongo" element={<Mongo />} />
+          <Route path="/wordpress" element={<Wordpress />} />
+          <Route path="/materialUi" element={<MaterialUi />} />
         </Routes>
       </Router>
     </>

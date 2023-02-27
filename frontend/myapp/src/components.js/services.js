@@ -36,7 +36,7 @@ function Services() {
           </div>
           <p>HTML</p>
         </Link>
-        <Link href="#" class="card css">
+        <Link to="/css" class="card css">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -74,7 +74,7 @@ function Services() {
           </div>
           <p>CSS</p>
         </Link>
-        <Link href="#" class="card js">
+        <Link to="/js" class="card js">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -93,8 +93,7 @@ function Services() {
           </div>
           <p>JS</p>
         </Link>
-
-        <Link href="#" class="card ts">
+        <Link to="/ts" class="card ts">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -117,8 +116,7 @@ function Services() {
           </div>
           <p>TS</p>
         </Link>
-
-        <Link href="#" class="card git">
+        <Link to="/git" class="card git">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -158,8 +156,7 @@ function Services() {
           </div>
           <p>GIT</p>
         </Link>
-
-        <Link href="#" class="card react">
+        <Link to="/react" class="card react">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -177,7 +174,7 @@ function Services() {
           </div>
           <p>REACT</p>
         </Link>
-        <Link href="#" class="card postgres">
+        <Link to="/postgres" class="card postgres">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -295,7 +292,7 @@ function Services() {
           </div>
           <p>POSTGRES DB</p>
         </Link>
-        <Link href="#" class="card mongo">
+        <Link to="/mongo" class="card mongo">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -313,7 +310,7 @@ function Services() {
           </div>
           <p>MONGO DB</p>
         </Link>
-        <Link href="#" class="card github">
+        <Link to="/github" class="card github">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -331,8 +328,7 @@ function Services() {
           </div>
           <p>GITHUB</p>
         </Link>
-
-        <Link href="#" class="card wordpress">
+        <Link to="/wordpress" class="card wordpress">
           <div class="cor__cobertura"></div>
           <div class="circulo">
             <svg
@@ -357,6 +353,169 @@ function Services() {
             </svg>
           </div>
           <p>WORDPRESS</p>
+        </Link>
+        <Link to="/angular" class="card angular">
+          <div class="cor__cobertura"></div>
+          <div class="circulo">
+            <svg
+              width="80px"
+              height="80px"
+              viewBox="0 0 48 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill="#bdbdbd"
+                d="M23.933 2L3 9.285 6.308 36.408 23.955 46 41.693 36.278 45 9.156z"
+              />
+              <path
+                fill="#b71c1c"
+                d="M42.818 10.527L24 4.135 24 43.695 39.832 35.017z"
+              />
+              <path
+                fill="#dd2c00"
+                d="M23.941 4.115L5.181 10.644 8.168 35.143 23.951 43.721 24 43.695 24 4.135z"
+              />
+              <path
+                fill="#bdbdbd"
+                d="M24 5.996L24 15.504 32.578 34 36.987 34z"
+              />
+              <path fill="#eee" d="M11.013 34L15.422 34 24 15.504 24 5.996z" />
+              <path fill="#bdbdbd" d="M24 24H30V28H24z" />
+              <path fill="#eee" d="M18 24H24V28H18z" />
+            </svg>
+          </div>
+          <p>ANGULAR JS</p>
+        </Link>
+        <Link to="/bootstrap" class="card bootstrap">
+          <div class="cor__cobertura"></div>
+          <div class="circulo">
+            <svg
+              width="80px"
+              height="80px"
+              viewBox="0 0 48 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill="#673ab7"
+                d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5 V37z"
+              />
+              <path
+                fill="#fff"
+                d="M33.03,25.6c-0.65-0.9-1.59-1.52-2.8-1.85c0,0,1.02-0.37,1.94-1.75c0.55-0.88,0.83-1.94,0.83-3.18 c0-2.15-0.78-3.8-2.34-4.93C29.1,12.76,27.34,12,24.35,12H15v24h10.43c2.83-0.02,4.96-0.63,6.41-1.8c1.44-1.19,2.16-2.95,2.16-5.3 C34,27.6,33.68,26.5,33.03,25.6z M21,16c0,0,4.17,0,4.25,0c1.52,0,2.75,1.23,2.75,2.75c0,1.52-1.23,2.75-2.75,2.75 c-0.08,0-4.25,0-4.25,0V16z M26,32h-5v-6h5c1.66,0,3,1.34,3,3C29,30.66,27.66,32,26,32z"
+              />
+            </svg>
+          </div>
+          <p>BOOTSTRAP</p>
+        </Link>
+        <Link to="/materialui" class="card materialui">
+          <div class="cor__cobertura"></div>
+          <div class="circulo">
+            <svg
+              width="80px"
+              height="80px"
+              viewBox="0 0 48 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon fill="#29b6f6" points="1,5 7,9 7,29 1,25" />
+              <polygon fill="#0288d1" points="47,20 41,24 41,37 47,33" />
+              <polygon fill="#0288d1" points="47,6 41,10 41,17 47,13" />
+              <polygon fill="#0288d1" points="35,5 29,9 29,29 35,25" />
+              <polygon fill="#29b6f6" points="1,12 18,23 18,16 1,5" />
+              <polygon fill="#0288d1" points="35,12 18,23 18,16 35,5" />
+              <polygon fill="#0288d1" points="35,26 18,37 18,30 35,19" />
+              <polygon fill="#0288d1" points="47,34 30,45 30,38 47,27" />
+              <polygon
+                fill="#29b6f6"
+                points="30,37.765 18,30 18,37 30,44.765"
+              />
+            </svg>
+          </div>
+          <p>MATERIAL UI</p>
+        </Link>
+        <Link to="/antd" class="card ant">
+          <div class="cor__cobertura"></div>
+          <div class="circulo">
+            <svg
+              width="80px"
+              height="80px"
+              viewBox="0 0 256 256"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <linearGradient
+                  x1="62.1023273%"
+                  y1="0%"
+                  x2="108.19718%"
+                  y2="37.8635764%"
+                  id="linearGradient-1"
+                >
+                  <stop stop-color="#4285EB" offset="0%"></stop>
+                  <stop stop-color="#2EC7FF" offset="100%"></stop>
+                </linearGradient>
+                <linearGradient
+                  x1="69.644116%"
+                  y1="0%"
+                  x2="54.0428975%"
+                  y2="108.456714%"
+                  id="linearGradient-2"
+                >
+                  <stop stop-color="#29CDFF" offset="0%"></stop>
+                  <stop stop-color="#148EFF" offset="37.8600687%"></stop>
+                  <stop stop-color="#0A60FF" offset="100%"></stop>
+                </linearGradient>
+                <linearGradient
+                  x1="69.6908165%"
+                  y1="-12.9743587%"
+                  x2="16.7228981%"
+                  y2="117.391248%"
+                  id="linearGradient-3"
+                >
+                  <stop stop-color="#FA816E" offset="0%"></stop>
+                  <stop stop-color="#F74A5C" offset="41.472606%"></stop>
+                  <stop stop-color="#F51D2C" offset="100%"></stop>
+                </linearGradient>
+                <linearGradient
+                  x1="68.1279872%"
+                  y1="-35.6905737%"
+                  x2="30.4400914%"
+                  y2="114.942679%"
+                  id="linearGradient-4"
+                >
+                  <stop stop-color="#FA8E7D" offset="0%"></stop>
+                  <stop stop-color="#F74A5C" offset="51.2635191%"></stop>
+                  <stop stop-color="#F51D2C" offset="100%"></stop>
+                </linearGradient>
+              </defs>
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g fill-rule="nonzero">
+                  <path
+                    d="M116.850078,4.54548777 L4.52892893,116.774275 C-1.50964298,122.807881 -1.50964298,132.553174 4.52892893,138.586781 L116.850078,250.815568 C122.88865,256.849175 132.641964,256.849175 138.680536,250.815568 L185.77519,203.759641 C191.183172,198.356106 191.183172,189.595245 185.77519,184.191711 C180.367208,178.788175 171.599136,178.788175 166.191154,184.191711 L130.489075,219.864432 C128.986084,221.366187 126.704989,221.366187 125.201998,219.864432 L35.5055378,130.241729 C34.0025469,128.739974 34.0025469,126.460755 35.5055378,124.959 L125.201998,35.3362976 C126.704989,33.8345425 128.986084,33.8345425 130.489075,35.3362976 L166.191154,71.009019 C171.599136,76.4125539 180.367208,76.4125539 185.77519,71.009019 C191.183172,65.605484 191.183172,56.8446228 185.77519,51.4410879 L138.685727,4.39028013 C132.622361,-1.51275655 122.86548,-1.46496803 116.850078,4.54548777 Z"
+                    fill="url(#linearGradient-1)"
+                  ></path>
+                  <path
+                    d="M116.850078,4.54548777 L4.52892893,116.774275 C-1.50964298,122.807881 -1.50964298,132.553174 4.52892893,138.586781 L116.850078,250.815568 C122.88865,256.849175 132.641964,256.849175 138.680536,250.815568 L185.77519,203.759641 C191.183172,198.356106 191.183172,189.595245 185.77519,184.191711 C180.367208,178.788175 171.599136,178.788175 166.191154,184.191711 L130.489075,219.864432 C128.986084,221.366187 126.704989,221.366187 125.201998,219.864432 L35.5055378,130.241729 C34.0025469,128.739974 34.0025469,126.460755 35.5055378,124.959 L125.201998,35.3362976 C128.944397,32.1100005 135.050525,25.5752137 144.017405,24.0468431 C150.68143,22.9109853 157.967021,25.4109881 165.874177,31.546852 C160.587747,26.2647619 151.52493,17.2125713 138.685727,4.39028013 C132.622361,-1.51275655 122.86548,-1.46496803 116.850078,4.54548777 Z"
+                    fill="url(#linearGradient-2)"
+                  ></path>
+                  <path
+                    d="M196.646643,173.754365 C202.054625,179.157899 210.822696,179.157899 216.230677,173.754365 L250.970004,139.043604 C257.008576,133.009998 257.008576,123.264704 250.970711,117.231801 L215.928547,82.342615 C210.507763,76.945494 201.736908,76.953277 196.325725,82.3600099 C190.917743,87.7635449 190.917743,96.524406 196.325725,101.927941 L219.993396,125.57615 C221.496387,127.077905 221.496387,129.357124 219.993396,130.858879 L196.646643,154.186433 C191.23866,159.589968 191.23866,168.350829 196.646643,173.754365 Z"
+                    fill="url(#linearGradient-3)"
+                  ></path>
+                  <ellipse
+                    fill="url(#linearGradient-4)"
+                    cx="128.326913"
+                    cy="128.241672"
+                    rx="30.3267102"
+                    ry="30.3017724"
+                  ></ellipse>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <p>ANTD</p>
         </Link>
       </body>
     </App>
