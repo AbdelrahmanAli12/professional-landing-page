@@ -1,71 +1,30 @@
 import React from "react";
 import App from "../App";
-
+import { Card } from "antd";
+const { Meta } = Card;
 function About() {
   return (
     <App>
-      <div id="about section">
-        <h2>About us</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-          lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi.
-          Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod
-          quis lectus a tempor.{" "}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-          lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi.
-          Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod
-          quis lectus a tempor.{" "}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-          lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi.
-          Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod
-          quis lectus a tempor.{" "}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-          lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi.
-          Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod
-          quis lectus a tempor.{" "}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-          lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi.
-          Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod
-          quis lectus a tempor.{" "}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-          lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi.
-          Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod
-          quis lectus a tempor.{" "}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-          lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi.
-          Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod
-          quis lectus a tempor.{" "}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-          lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi.
-          Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod
-          quis lectus a tempor.{" "}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-          lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi.
-          Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod
-          quis lectus a tempor.{" "}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-          lectus aliquam, congue felis nec, sollicitudin enim. Nulla facilisi.
-          Nullam vel risus ut justo lacinia facilisis ac ut ipsum. Sed euismod
-          quis lectus a tempor.{" "}
-        </p>
+      <div
+        style={{
+          display: "flex",
+          gap: "5%",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <Card
+          hoverable
+          style={{
+            width: 300,
+          }}
+          cover={<img alt="example" src="photo.jpg" />}
+        >
+          <Meta
+            title="Ali Geith , Abdelrahman Ali"
+            description="Undergrad Software enginners"
+          />
+        </Card>
       </div>
     </App>
   );

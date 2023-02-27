@@ -17,7 +17,7 @@ const Navbar = () => {
           Services
         </Link>
         <Link to="/about" className="nav-link" activeClassName="active-link">
-          About
+          About Us
         </Link>
         <Link to="/contact" className="nav-link" activeClassName="active-link">
           Contact
