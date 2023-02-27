@@ -16,7 +16,7 @@ function Html() {
           <img
             alt="example"
             src="Top-Uses-Of-HTML.jpg"
-            style={{ height: "300px" }}
+            style={{ height: "350px" }}
           />
         }
       >
