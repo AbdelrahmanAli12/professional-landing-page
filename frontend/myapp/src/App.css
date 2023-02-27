@@ -205,6 +205,12 @@ footer p {
   --text-color-hover: #4c5656;
   --box-shadow-color: rgba(252, 255, 189, 0.762);
 }
+.ts {
+  --bg-color: #335094;
+  --bg-color-light: #fff8c7;
+  --text-color-hover: #4c5656;
+  --box-shadow-color: rgba(252, 255, 189, 0.762);
+}
 
 .git {
   --bg-color: #df4d36;
@@ -225,8 +231,8 @@ footer p {
   --box-shadow-color: rgba(255, 202, 152, 0.48);
 }
 .mongo{
- --bg-color: rgba(34, 198, 19, 0.48);
-    --bg-color: rgba(34, 198, 19, 0.48);
+ --bg-color: rgba(13, 95, 5, 0.48);
+    --bg-color: rgb(16, 83, 10);
   --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 202, 152, 0.48);
 
@@ -234,6 +240,13 @@ footer p {
 .github{
  --bg-color: rgba(0, 0, 0, 0.48);
    --bg-color-light: #000000;
+  --text-color-hover: #fff;
+  --box-shadow-color: rgba(255, 202, 152, 0.48);
+
+}
+.wordpress{
+ --bg-color: rgb(36, 118, 148);
+   --bg-color-light: rgb(25, 75, 93);
   --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 202, 152, 0.48);
 
