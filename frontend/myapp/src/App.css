@@ -348,3 +348,52 @@ footer p {
   z-index: 0;
   transition: transform 0.3s ease-out;
 }
+
+.banner {
+  background-image: url('../public/homelogo.jpg');
+  height: 500px;
+  background-size: auto;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  color: #fff;
+  font-size: 40px;
+}
+
+.homeservice {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: #eee;
+}
+.homeservice h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.homeservice ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.homeservice li {
+  margin-bottom: 20px;
+}
+.homeservice li h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.homeservice ul li link {
+  color: blue;
+  text-decoration: none;
+}
+
+.homeservice ul li link:hover {
+  color: red;
+  text-decoration: underline;
+}
