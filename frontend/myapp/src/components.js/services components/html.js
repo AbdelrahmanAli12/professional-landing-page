@@ -7,9 +7,9 @@ function Html() {
     <App>
       <Card
         style={{
-          width: "70%",
+          width: "60%",
           alignContent: "center",
-          marginLeft: "13%",
+          marginLeft: "18%",
         }}
         bodyStyle={{ fontSize: "Bolder", color: "black" }}
         cover={
