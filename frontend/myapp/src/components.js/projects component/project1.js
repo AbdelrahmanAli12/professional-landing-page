@@ -14,7 +14,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 function Project1() {
   return (
     <App>
-      <div style={{}}>
+      <div style={{ textAlign: "center" }}>
         <h1>Online learning website</h1>
         <h4>
           The goal of the project is to build a full online learning system. An
