@@ -149,8 +149,8 @@ footer p {
   width:fit-content;
   flex-direction: row;
   font-family: "Verdana";
-  margin: 3%;
-  gap: 1%;
+  margin: 5%;
+  gap: 5%;
   flex-wrap: wrap;
   overflow: auto;
 }
@@ -168,7 +168,6 @@ footer p {
   --text-color-hover: #fff;
   --box-shadow-color: rgba(188, 221, 255, 0.48);
 }
-
 .js {
   --bg-color: #f8de1a;
   --bg-color-light: #fff8c7;
@@ -181,7 +180,6 @@ footer p {
   --text-color-hover: #4c5656;
   --box-shadow-color: rgba(252, 255, 189, 0.762);
 }
-
 .git {
   --bg-color: #df4d36;
   --bg-color-light: #ffe4e0;

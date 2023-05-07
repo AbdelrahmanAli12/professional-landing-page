@@ -1,5 +1,8 @@
 {
     "scripts": {
-        "start":"cd frontend/myapp && npm start"
+        "start": "cd frontend/myapp && npm start"
+    },
+    "dependencies": {
+        "react-reveal": "^1.2.2"
     }
 }
