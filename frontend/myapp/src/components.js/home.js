@@ -8,7 +8,9 @@ function Home() {
     <App>
       <Zoom left>
         <div id="home" className="active-section section">
-          <section class="banner"></section>
+          <div id="imgSize">
+            <img class="banner" src="./homelogo.jpg" alt="logo"></img>
+          </div>
           <Fade top cascade>
             <section class="homeservice">
               <h1>Experienced Engineers Delivering Quality Solutions</h1>
